@@ -1,0 +1,23 @@
+{
+  "name": "@freshly/shared-lib-2",
+  "version": "1.0.0",
+  "description": "Общие типы и интерфейсы для микросервисов",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "tsc"
+  },
+  "keywords": ["shared", "types", "interfaces", "microservices"],
+  "author": "Freshly Team",
+  "license": "MIT",
+  "dependencies": {
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}
